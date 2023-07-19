@@ -139,9 +139,7 @@ text-transform: uppercase;
     color: #8758F1;
 }
 /* We are gamer section style */
- section{
-   
-}
+
 .gamer-container{
     display: flex;
     justify-content: space-around;
@@ -240,22 +238,111 @@ padding-bottom: 15px;
     padding-top: 20px;
 }
 /* section-4 style */
-/* .section-4{
+.section-4{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 100px;
-    margin:0 130px;
-} */
-/* .content-img-1{
+    margin:0 130px 130px;
+}
+.parent{
     position: relative;
     width: 100%;
-} */
-/* .content-img-2{
-    width: 120px;
-    height: 120px;
-    position: absolute;
-} */
+}
+.child{
+    position:absolute;
+    top: 250px;
+    left: 410px;
+}
+.content-img-2{
+    width: 130px;
+    height: 140px;
+}
+.design-more{
+    font-size: 25px;
+}
+/* button section */
+section .item-container{
+    display: flex;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: linear-gradient(90deg, rgba(214, 47, 172, 0.347) 0%, rgba(235, 56, 148, 0.192) 100%);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100vw;
+}
+.item-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 50px;
+   
+
+}
+.item-icon img{
+    display: flex;
+    padding: 0 5px;
+}
+.item-icon{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    margin: 10px 0px 30px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.item-icon:hover{
+    border:2px solid #FF42A5;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+.item-icon:hover p{
+    color: blue;
+}
+.icon-img{
+    width: 25px;
+    height: 25px;
+}
+
+/* footer section */
+footer{
+    padding: 60px 150px;
+    background-color: rgb(15, 15, 57);
+    text-align: center;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amar-color{
+    text-align: center;
+    color: white;
+}
+.footer-para{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    margin:50px 0;
+}
+.footer-para-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #534C64;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin:50px 0;
+}
 
 
 
